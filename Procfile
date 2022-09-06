@@ -1,1 +1,1 @@
-web: gunicorn diagonaluniverse.wsgi:application
+web: gunicorn gender-gap2022.wsgi:application
