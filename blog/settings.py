@@ -1,5 +1,6 @@
 import environ
 import os
+import django_heroku
 
 env = environ.Env()
 environ.Env.read_env()
@@ -118,7 +119,5 @@ STATICFILES_DIRS = ["static"]
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-# Heroku: Update database configuration from $DATABASE_URL.
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# Setup our database for use with Heroku
+django_heroku.settings(locals())
