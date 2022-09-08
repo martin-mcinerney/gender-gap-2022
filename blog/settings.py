@@ -19,7 +19,7 @@ DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-arronbeale-gendergap202-8pkvqt0se3d.ws-eu63.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-arronbeale-gendergap202-8pkvqt0se3d.ws-eu63.gitpod.io', 'https://www.heroku.com/']
 
 # Application definition
 

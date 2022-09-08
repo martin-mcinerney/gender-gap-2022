@@ -114,6 +114,12 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 - [CSS](https://www.w3.org/)
 
 
+
+### Resources Used
+- [Canva](https://www.canva.com/)
+- [Colors.co](https://coolors.co/)
+
+
 ### Frameworks and Tools
 - [Balsamiq](https://balsamiq.com/)
 
@@ -264,7 +270,7 @@ Site Owner
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Bug I had | I fixed it by...|
+| We had an issue accessing the backend via the admin login returning a csrf error | We fixed it by adding CSRF_TRUSTED_ORIGINS to settings.py |
 | Bug I had | I fixed it by... |
 
 
