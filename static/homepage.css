@@ -13,7 +13,7 @@ body {
 
 
 
-
+/* header */
 
 #header {
     background-color: #BAE8E8;
@@ -22,9 +22,7 @@ body {
 }
 
 #header ul {
-
     margin-right: 3%;
-
 }
 
 #header a {
@@ -38,11 +36,14 @@ body {
     box-shadow: 5px 5px 15px 5px #000000;
 } */
 
+/* hero section */
+
 #hero {
     background-color: #BAE8E8;
     padding: 0 10%;
 }
 
+/* yellow buttons */
 #hero button,
 #cards button {
     background-color: #FFD803;
@@ -51,6 +52,8 @@ body {
     -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
 }
+
+/* card Section */
 
 .card {
     background-color: #EDC7F6;
@@ -66,4 +69,19 @@ body {
 
 #cards h2 {
     margin: 70px 24%;
+}
+
+#carousel {
+    background-color: #EDC7F6;
+    height: 300px;
+    margin-bottom: 10%;
+}
+
+#carousel p {
+    font-size: 5rem;
+}
+
+#footer {
+    background-color: #BAE8E8;
+    color: #272343;
 }
