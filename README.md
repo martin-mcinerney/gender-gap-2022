@@ -62,13 +62,13 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 ## User Stories
 
 ### User
-1. As a User, I would like
-2. As a User, I would like
-3. As a User, I would like
-4. As a User, I would like
-5. As a User, I would like
-6. As a User , I would like
-7. As a User , I would like
+1. As a User,I would like
+2. As a User I can view articles so that I can learn more about a career in tech
+3. As a User I can access links to courses so that I can see what options I have for a career in tech
+4. As a User I can view a list of resources so that I can learn more toward a career in tech
+5. As a User I can access links to courses so that I can see what options I have for a career in tech
+6. As a User I can view all the blog posts so that I can see what I may be interested in reading
+7. As a User I can use a navbar, footer, and social icons so that I can navigate the site, access menus, and access socials
  
 ### Site Owner
 8. As the site owner, I would like
