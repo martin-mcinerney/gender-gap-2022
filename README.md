@@ -1,7 +1,8 @@
 # PandoraTech
 
 
-![cover image]()
+![cover image](readme/image-am-i-responsive.PNG)  
+
 Developers: Andrew, Arron, Dee, Jamie, Martin
 
 [Deployed Site]()  
@@ -52,11 +53,11 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 - The target audience for is women interested in a career in the tech industry.
 
 ### User Requirments and Expectations
-- 
-- 
-- 
-- 
-- 
+- A site to inform the User to career choices in Tech
+- Various articles and resources
+- Information on various courses available
+- Links to additional information
+
 
 [Back to Top](<#table-of-content>)  
 ## User Stories
@@ -113,6 +114,12 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 - [CSS](https://www.w3.org/)
 
 
+
+### Resources Used
+- [Canva](https://www.canva.com/)
+- [Colors.co](https://coolors.co/)
+
+
 ### Frameworks and Tools
 - [Balsamiq](https://balsamiq.com/)
 
@@ -136,17 +143,15 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 ## Features
 
 ### Blog
-- A fun and challengibng quiz for all fans of The Simpsons.
-- Contains a variety of questions related to The Simpsons.
+- A blog with various articles on Tech related careers
 - User stories covered:
-<details><summary>Quiz image</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP3_The_Simpsons_Quiz/main/docs/features/feature_quiz.PNG">
+<details><summary>Image</summary>
+<img src="">
 </details>  
 
 
-### Info Section
-- 
-- 
+### Educational Section
+- A page with various educational information
 - User stories covered:
 <details><summary>Image</summary>
 <img src="">
@@ -154,7 +159,7 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 
 
 ### Careers Section
-- 
+- A page with information on career paths
 - User stories covered:
 <details><summary>Image
 </summary>
@@ -162,27 +167,20 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 </details>  
 
 
-### Courses Section
-- 
+### About Section
+- A page about the development team
 - User stories covered:
 <details><summary>Image</summary>
 <img src="">
 </details>  
  
-### Logo
--
-- User stories covered:
-<details><summary>Image</summary>
-<img src="">
-</details>  
-
 
 [Back to Top](<#table-of-content>)
 ## Validation
 
 ### PEP8 Validation
 <details><summary>page</summary>
-<img src="https://raw.githubusercontent.com/ArronBeale/CI_PP3_The_Simpsons_Quiz/main/docs/validation/validation_pep8_run.PNG">
+<img src="">
 </details>
 
 <details><summary>Page</summary>
@@ -272,7 +270,7 @@ Site Owner
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Bug I had | I fixed it by...|
+| We had an issue accessing the backend via the admin login returning a csrf error | We fixed it by adding CSRF_TRUSTED_ORIGINS to settings.py |
 | Bug I had | I fixed it by... |
 
 
