@@ -62,7 +62,7 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 ## User Stories
 
 ### User
-1. As a User,I would like
+1. As a User I can navigate across the site so that I can move to each feature of the site easily
 2. As a User I can view articles so that I can learn more about a career in tech
 3. As a User I can access links to courses so that I can see what options I have for a career in tech
 4. As a User I can view a list of resources so that I can learn more toward a career in tech
@@ -70,13 +70,20 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 6. As a User I can view all the blog posts so that I can see what I may be interested in reading
 7. As a User I can use a navbar, footer, and social icons so that I can navigate the site, access menus, and access socials
  
+### Admin/Authorised User
+8. As an Admin/Authorised User I can access the backend so that I can create, read, update and delete database items
+9. As an Admin/Authorised User I can create career path in the database so that I can add more paths as new ones appear
+10. As an Admin/Authorised User I can edit existing career paths so that I can keep information up to date
+11. As an Admin/Authorised User I can delete career path so that I can keep the career section up to date
+12. As an Admin/Authorised User I can create a blog post so that I can add additional information and articles
+13. As an Admin/Authorised User I can edit the blog post so that I can fix any typos or update information
+14. As an Admin/Authorised User I can delete a blog post so that I can clean up old posts to keep information current
+15. As an Admin/User I can approve pending blog posts so that I can make sure all content posted is safe
+
 ### Site Owner
-8. As the site owner, I would like
-9. As the site owner, I would like
-10. As the site owner, I would like
-11. As the site owner, I would like
-12. As the site owner, I would like
-13. As the site owner, i would like
+16. As a Site Owner I can validate data entered into my site so that all submitted data is correct to avoid errors
+17. As a Site Owner I can provide a contact us page so that users can get in touch with my business
+18. As a Site Owner I can provide a fully responsive site for my customers so that they have a good user experience
  
 [Back to Top](<#table-of-content>)
 ## Technical Design
