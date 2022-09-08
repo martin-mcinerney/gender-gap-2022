@@ -35,16 +35,16 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 ## Project Goals
 
 ### User Goals
-- 
-- 
-- 
-- 
+- I can access educational resources
+- I can view available career paths in The Tech Industry
+- I can view inspirational stories from women in The Tech Industry
+- I can visit the about us to learn about the Team
 
 ### Site Owner Goals
-- 
-- 
-- 
-- 
+- To help close The Gender Gap
+- To provide information and resources for Women interested in a career in Tech 
+- To provide inspiring stories from women currently in the Tech Industry
+- To highlight the various career paths available in the Tech Industry
 
 [Back to Top](<#table-of-content>)
 ## User Experience
