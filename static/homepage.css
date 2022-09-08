@@ -13,9 +13,7 @@ body {
 
 
 
-#cards {
-    text-align: center;
-}
+
 
 #header {
     background-color: #BAE8E8;
@@ -45,10 +43,27 @@ body {
     padding: 0 10%;
 }
 
-#hero button {
+#hero button,
+#cards button {
     background-color: #FFD803;
     border-radius: 5%;
     width: 40%;
     -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.card {
+    background-color: #EDC7F6;
+    padding: 20px;
+    /* border-radius: 0; */
+    margin: 100px auto;
+}
+
+#cards button {
+    margin-left: 30%;
+
+}
+
+#cards h2 {
+    margin: 70px 24%;
 }
