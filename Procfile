@@ -1,0 +1,1 @@
+web: gunicorn gender-gap2022.wsgi 
