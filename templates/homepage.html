@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome icons -->
     <script src="https://kit.fontawesome.com/4c414eafd1.js" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="static/homepage.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="/static/homepage.css">
     <title>Pandora - Empowering women in Tech</title>
 
 </head>
@@ -17,7 +19,7 @@
 <body>
 
     <!-- header -->
-    <div class="container" id="header">
+    <div class="container-fluid" id="header">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32">
@@ -28,7 +30,7 @@
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Articles</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
@@ -39,7 +41,7 @@
 
     <!-- hero -->
 
-    <div class="container col-xxl-8 px-4 py-5" id="hero">
+    <div class="container-fluid col-xxl-8 " id="hero">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -51,8 +53,8 @@
                     education, community and support.</p>
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Speak</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn</button>
+                    <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
+
                 </div>
             </div>
         </div>
@@ -70,7 +72,6 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +84,6 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
@@ -96,22 +96,43 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-lg px-4 me-md-2">Find out more</button>
+
+        <h2>Featured Tweets #gendergap</h2>
+
+        <!-- twitter feed carousel -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>I will be filled with Tweets</p>
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p>I will also be filled with Tweets</p>
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p>I will deffo be filled with Tweets</p>
+                    <img src="..." class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- footer -->
-    <div class="container" id="footer">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="container-fluid" id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap" /></svg>
                 </a>
-                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 KodeFox, Inc</span>
+                <span class="text-muted"> 2022 Pandora - For educational purposes</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
