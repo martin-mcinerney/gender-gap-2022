@@ -91,30 +91,26 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 
 ### Flow Charts
 
-<details><summary>Feature</summary>
-<img src="">
-</details>
+<details><summary>Flow</summary>
+<img src="readme/image-flow.png">
+</details>  
 
-<details><summary>Feature</summary>
-<img src="">
-</details>
 
-<details><summary>Feature</summary>
-<img src="">
-</details>
 
 ### Wireframes
 
-<details><summary>Wireframes</summary>
-<img src="">
+<details><summary>Home & Article Page</summary>
+<img src="readme/image-wireframe.png">
 </details>
 
    
-[Back to Top](<#table-of-content>)
 ## Technologies Used
 
 ### Languages
 - [Python](https://www.python.org/)
+- [Javascript](https://www.javascript.com/)
+- [HTML](https://www.w3.org/)
+- [CSS](https://www.w3.org/)
 
 
 ### Frameworks and Tools
