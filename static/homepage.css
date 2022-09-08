@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
 
 #cards {
     text-align: center;
@@ -14,8 +22,26 @@
     padding: 0;
 }
 
+#header ul {
+
+    margin-right: 3%;
+
+}
+
+#header a {
+    color: #272343;
+}
+
+/* #header a {
+    background-color: #FFD803;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+} */
+
 #hero {
     background-color: #BAE8E8;
+    padding: 0 10%;
 }
 
 #hero button {
