@@ -3,8 +3,15 @@ from django.shortcuts import render, HttpResponseRedirect
 from Posts.models import Post
 from .forms import PostForm
 
-def newpost(request):
-    return render(request, 'Posts/newpost.html')
+def newstory(request):
+    if request.method == 'POST':
+        form = PostForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect("/")
+    else:
+        form = PostForm()
+    return render(request, 'Posts/newstory.html', {'form': form})
 
 def stories(request):
     stories = Post.objects.all()

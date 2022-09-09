@@ -3,11 +3,14 @@
 {% block content %}
 
 <h1>all stories page</h1>
-
+<a href="{% url 'newstory' %}">share your story</a>
 {% for story in stories %}
 
 <div>
+    <h3>{{story.author}}</h3>
     <p>{{story.text}}</p>
+    <p>{{story.link}}</p>
+    <p>---------------------------------------</p>
 </div>
 {% endfor %}
 
