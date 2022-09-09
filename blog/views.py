@@ -14,3 +14,6 @@ def career(request):
 
 def education(request):
     return render(request, 'education.html')
+
+def about(request):
+    return render(request, 'about.html')
