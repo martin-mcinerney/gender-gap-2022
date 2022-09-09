@@ -1,11 +1,11 @@
-# PandoraTech
+# WITCH
 
 
 ![cover image](readme/image-am-i-responsive.PNG)  
 
 Developers: Andrew, Arron, Dee, Jamie, Martin
 
-[Deployed Site]()  
+[Deployed Site](https://witch-kodefox.herokuapp.com/)  
 (Note: Ctrl + click to open in a new tab)    
 
 
@@ -97,12 +97,13 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 </details>  
 
 
-
 ### Wireframes
 
 <details><summary>Home & Article Page</summary>
 <img src="readme/image-wireframe.png">
-</details>
+</details>  
+
+
 
    
 ## Technologies Used
@@ -121,6 +122,8 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 
 
 ### Frameworks and Tools
+- [Bootstrap](https://getbootstrap.com//)
+
 - [Balsamiq](https://balsamiq.com/)
 
 - [GitPod](https://gitpod.io/)
@@ -136,41 +139,26 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 - [Date time](https://docs.python.org/3/library/datetime.html)
 - [Unittest](https://docs.python.org/3/library/unittest.html)
 
-#### Third Party Libraries
-- 
-- 
 
 ## Features
-
-### Blog
-- A blog with various articles on Tech related careers
-- User stories covered:
-<details><summary>Image</summary>
+  
+<details><summary>Home</summary>
+<img src="/readme/image-feature-home.PNG">
+</details>  
+  
+<details><summary>Stories</summary>
 <img src="">
 </details>  
-
-
-### Educational Section
-- A page with various educational information
-- User stories covered:
-<details><summary>Image</summary>
+  
+<details><summary>Career</summary>
 <img src="">
 </details>  
-
-
-### Careers Section
-- A page with information on career paths
-- User stories covered:
-<details><summary>Image
-</summary>
+  
+<details><summary>Education</summary>
 <img src="">
 </details>  
-
-
-### About Section
-- A page about the development team
-- User stories covered:
-<details><summary>Image</summary>
+  
+<details><summary>About</summary>
 <img src="">
 </details>  
  
@@ -211,6 +199,7 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 <img src="">
 <img src="">
 </details>
+</details>
 
 
 
@@ -238,7 +227,7 @@ Site Owner
 
 <img src="">
 
-- Test ran and passed with the correct email format submitted for the test.
+- Test results....
 
 <img src="">
 
@@ -311,9 +300,8 @@ You can clone the repository by following these steps:
 
 
 ### Media
-- [Flaticon](https://www.flaticon.com/free-icon/physics_4270905?term=nuclear&page=1&position=16&page=1&position=16&related_id=4270905&origin=search): Nuclear icons created by Freepik - Flaticon</a>
-- [Background image](https://www.freepik.com/vectors/fluffy-clouds) 
-created by pch.vector - www.freepik.com</a>
+- [Favicon](https://favicon.io/): Witch Icon</a>
+- [Card Images](https://www.pexels.com/)</a>
 
 ### Code
 - [Site](https://www.google.com)
