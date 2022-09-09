@@ -6,6 +6,10 @@ from .forms import PostForm
 def newpost(request):
     return render(request, 'Posts/newpost.html')
 
+def stories(request):
+    stories = Post.objects.all()
+    return render(request, 'Posts/stories.html', {'stories': stories })
+
 def view_post(request, slug):
     post = Post.objects.get(slug=slug)
     return render(request, 'Posts/view_post.html', {'post': post})
