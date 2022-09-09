@@ -15,6 +15,11 @@ body {
 
 /* header */
 
+.logo {
+    height: 85px;
+    padding: 5px;
+}
+
 #header {
     background-color: #BAE8E8;
     margin: 0;
