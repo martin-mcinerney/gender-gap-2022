@@ -68,6 +68,13 @@ body {
     /* margin: 100px auto; */
 }
 
+.card-mint {
+    background-color: #BAE8E8;
+    padding: 20px;
+    /* border-radius: 0; */
+    /* margin: 100px auto; */
+}
+
 #cards button {
     margin-left: 30%;
 
