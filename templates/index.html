@@ -4,28 +4,31 @@
 <!-- hero -->
 
 <div class="container-fluid" id="hero">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+    <div class="row flex-md-row-reverse align-items-center g-5 py-5">
+        <div class="col-12 col-md-6">
             <img src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
-        <div class="col-lg-6">
+        <div class="col-12 col-md-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Empowering women to work in Tech.</h1>
             <p class="lead">We are here to support women in their entry to the tech industry with focus on
                 education, community and support.</p>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <div class="d-none d-md-flex justify-content-md-start">
                 <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
-
+            </div>
+            <div class="d-flex d-md-none justify-content-center">
+                <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
             </div>
         </div>
     </div>
 </div>
+</div>
 
 <!-- cards -->
 <section class="container" id="cards">
-    <div class="row">
-        <div class="col-sm-4">
+    <div class="row d-flex my-5 justify-content-center">
+        <div class="col-10 col-md-4 mt-4">
             <div class="card">
                 <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1600"
                     class="card-img-top" alt="...">
@@ -37,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-10 col-md-4 mt-4">
             <div class="card">
                 <img src="https://images.pexels.com/photos/6457579/pexels-photo-6457579.jpeg?auto=compress&cs=tinysrgb&w=1600"
                     class="card-img-top" alt="...">
@@ -49,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-10 col-md-4 mt-4">
             <div class="card">
                 <img src="https://images.pexels.com/photos/6457515/pexels-photo-6457515.jpeg?auto=compress&cs=tinysrgb&w=1600"
                     class="card-img-top" alt="...">
@@ -62,8 +65,10 @@
             </div>
         </div>
     </div>
-
-    <button type="button" class="btn btn-lg px-4 me-md-2">Find out more</button>
+    </div>
+    <div class="container my-5">
+        <button type="button" class="btn btn-lg px-4 me-md-2">Find out more</button>
+    </div>
 
     <h2>Featured Tweets #gendergap</h2>
 
@@ -87,5 +92,3 @@
         </div>
     </div>
 </section>
-
-{% endblock %}

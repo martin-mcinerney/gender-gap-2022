@@ -19,25 +19,40 @@
 <body>
 
     <!-- header -->
-    <div class="container-fluid" id="header">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32">
-                    <use xlink:href="#bootstrap" /></svg>
-
-                <span class="fs-4">Pandora</span>
-
+    <div id="header">
+        <nav class="navbar navbar-expand-sm">
+            <!-- Logo -->
+            <a href="{% url 'index' %}">
+                <img class="float-start logo" src="https://res.cloudinary.com/drqe8p5dw/image/upload/v1662722560/logo_zyjevc.png" alt="WITCH Logo">
             </a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="{% url 'index' %}" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="{% url 'career' %}" class="nav-link">Career Paths</a></li>
-                <li class="nav-item"><a href="{% url 'education' %}" class="nav-link">Educational Resources</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Admin</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Stories</a></li>
-                <li class="nav-item"><a href="{% url 'about' %}" class="nav-link">About Us</a></li>
-            </ul>
-        </header>
+            <!-- Taken from Bootstrap module -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'career' %}">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'education' %}">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 
     {% block content %}

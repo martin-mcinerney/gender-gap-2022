@@ -15,10 +15,16 @@ body {
 
 /* header */
 
+.logo {
+    height: 85px;
+    padding: 5px;
+}
+
 #header {
     background-color: #BAE8E8;
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 
 #header ul {
@@ -59,7 +65,14 @@ body {
     background-color: #EDC7F6;
     padding: 20px;
     /* border-radius: 0; */
-    margin: 100px auto;
+    /* margin: 100px auto; */
+}
+
+.card-mint {
+    background-color: #BAE8E8;
+    padding: 20px;
+    /* border-radius: 0; */
+    /* margin: 100px auto; */
 }
 
 #cards button {
@@ -84,4 +97,13 @@ body {
 #footer {
     background-color: #BAE8E8;
     color: #272343;
+}
+
+/* Hamburger dropdown nav  */
+.navbar-toggler {
+    margin-right: 5px;
+}
+
+#navbarSupportedContent {
+    padding-left: 20px;
 }
