@@ -3,6 +3,6 @@ stuff/
 db.sqlite3
 .env
 Posts/__pycache__/
-blog/__pycache__/
+witch/__pycache__/
 migrations/__pycache__/
 *.pyc
