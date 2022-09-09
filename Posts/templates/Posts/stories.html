@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>all stories page</h1>
+
+{% for story in stories %}
+
+<div>
+    <p>{{story.text}}</p>
+</div>
+{% endfor %}
+
+
+{% endblock %}
