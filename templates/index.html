@@ -15,10 +15,10 @@
                 education, community and support.</p>
 
             <div class="d-none d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-lg px-4 me-md-2 grow">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow"><a href="{% url 'stories' %}" class="text-decoration-none home-cards-a" alt="A link to blog your story" target="_blank" aria-label="takes you to the stories page">Read Stories</a></button>
             </div>
             <div class="d-flex d-md-none justify-content-center">
-                <button type="button" class="btn btn-lg px-4 me-md-2 grow">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow"><a href="{% url 'stories' %}" class="text-decoration-none home-cards-a" alt="A link to blog your story" target="_blank" aria-label="takes you to the stories page">Read Stories</a></button>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
                 <div class="card">
                     <img src="static/images/mortarboard.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Education</h5>
+                        <h2 class="card-title">Education</h2>
                         <p class="card-text">Boost your employability with our educational.</p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <img src="static/images/career.png" class="card-img-top" alt="...">
 
                     <div class="card-body">
-                        <h5 class="card-title">Careers</h5>
+                        <h2 class="card-title">Careers</h2>
                         <p class="card-text">Boost your career with our tailored careers resources.</p>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="card">
                     <img src="static/images/fairytale.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Stories</h5>
+                        <h2 class="card-title">Stories</h2>
                         <p class="card-text">Find inspiration in the stories of women in tech.</p>
                     </div>
                 </div>
@@ -64,11 +64,8 @@
         </div>
     </div>
     </div>
-    <div class="container my-5">
-        <button type="button" class="btn btn-lg px-4 me-md-2 grow">Find out more</button>
-    </div>
 
-    <h2>Featured Tweets #gendergap</h2>
+    <h3>Featured Tweets #gendergap</h3>
 
     <!-- this is the twitter feed  -->
     <div id="twitter-feed">
