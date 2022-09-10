@@ -27,10 +27,13 @@
         <nav class="navbar navbar-expand-sm">
             <!-- Logo -->
             <a href="{% url 'index' %}">
-                <img class="float-start logo" src="https://res.cloudinary.com/drqe8p5dw/image/upload/v1662722560/logo_zyjevc.png" alt="WITCH Logo">
+                <img class="float-start logo"
+                    src="https://res.cloudinary.com/drqe8p5dw/image/upload/v1662722560/logo_zyjevc.png"
+                    alt="WITCH Logo">
             </a>
             <!-- Taken from Bootstrap module -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Navigation -->
@@ -45,9 +48,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'education' %}">Education</a>
                     </li>
+                    {% if request.user.is_staff %}
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Admin</a>
+                        <a href="{% url 'logout' %}" class="nav-link">Log out</a>
                     </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a href="{% url 'login' %}" class="nav-link">Admin</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                         <a href="{% url 'stories' %}" class="nav-link">Stories</a>
                     </li>
@@ -68,7 +77,8 @@
         <div class="col-12 col-md-4 d-flex justify-content-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap" /></svg>
+                    <use xlink:href="#bootstrap" />
+                </svg>
             </a>
             <span class="text-muted"> 2022 Pandora - For educational purposes</span>
         </div>
@@ -97,6 +107,7 @@
     <!-- Link to Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
+
 </html>
