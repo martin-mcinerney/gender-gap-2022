@@ -44,14 +44,13 @@ def edit_post(request, slug):
         form = PostForm(instance=post)
     return render(request, "posts/edit_post.html", {'form': form, 'post': post})
 
-def delete_post(request, slug):
-    post = Post.objects.get(slug=slug)
-
+def delete_story(request, id):
     if request.method == 'POST':
-        post.delete()
-        return HttpResponseRedirect("/") #figure out exactly what this line does
+        Post.objects.get(id=id).delete()
+        return HttpResponseRedirect("/")
+    else:
 
-    return render(request, 'Posts/delete_post.html', {'post': post})
+        return render(request, 'Posts/stories')
 
 
 class Confirmed(generic.DetailView):
