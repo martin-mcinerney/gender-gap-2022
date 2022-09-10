@@ -29,6 +29,14 @@
                         <a class="text-muted" href="{{story.link}}">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a><i>
+                        
+                        {% if request.user.is_staff %}
+                            <form action="{% url 'delete_story' story.id %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="delete">
+    </form>
+     {% endif %}
+    
                     </div>
                 </div>
                 {% endfor %}

@@ -24,7 +24,12 @@
                     <div class="col-12 p-5">
                         <form action="/newpost/" method="post">
                             {% csrf_token %}
-                            {{ form.as_p }}
+                                <label for="{{ form.author.id_for_label }}">Your name</label>
+    <div>{{ form.author }}</div>
+    <label for="{{ form.text.id_for_label }}">Your story</label>
+    <div>{{ form.text }}</div>
+    <label for="{{ form.link.id_for_label }}">Share your Linkedin page to INSPIRE!</label>
+    <div>{{ form.link }}</div>
                             <input type="submit" value="Submit">
                         </form>
                     </div>
