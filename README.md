@@ -182,6 +182,13 @@ Developers: Andrew, Arron, Dee, Jamie, Martin
 
 ## Testing
 
+* We have tested the website on Chrome, Firefox and Safari and found it to function as expected across the browser types.
+* We have tested the site at different screen sizes using Chrome Developer Tools. The site is responsive and works well on mobile devices. 
+* We have given the site to users for feedback on the experience. They have reported a good experience.
+* We have confirmed that the links work on every page.
+* We have tested the back-end features by logging into the site and posting/deleting to the database.
+
+
 ### Manual Testing
 
 <details><summary>View manual testing</summary>
