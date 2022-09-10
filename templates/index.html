@@ -29,32 +29,38 @@
 <section class="container" id="cards">
     <div class="row d-flex my-5 justify-content-center">
         <div class="col-10 col-md-4 mt-4">
-            <div class="card">
-                <img src="static/images/mortarboard.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Education</h5>
-                    <p class="card-text">Boost your employability with our educational.</p>
+            <a href="{% url 'education' %}">
+                <div class="card">
+                    <img src="static/images/mortarboard.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Education</h5>
+                        <p class="card-text">Boost your employability with our educational.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-10 col-md-4 mt-4">
-            <div class="card">
-                <img src="static/images/career.png" class="card-img-top" alt="...">
+            <a href="{% url 'career' %}">
+                <div class="card">
+                    <img src="static/images/career.png" class="card-img-top" alt="...">
 
-                <div class="card-body">
-                    <h5 class="card-title">Careers</h5>
-                    <p class="card-text">Boost your career with our tailored careers resources.</p>
+                    <div class="card-body">
+                        <h5 class="card-title">Careers</h5>
+                        <p class="card-text">Boost your career with our tailored careers resources.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-10 col-md-4 mt-4">
-            <div class="card">
-                <img src="static/images/fairytale.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Stories/h5>
-                        <p class="card-text">Find inspiration in the stories of women in tech.</p>
+            <a href="{% url 'stories' %}">
+                <div class="card">
+                    <img src="static/images/fairytale.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stories/h5>
+                            <p class="card-text">Find inspiration in the stories of women in tech.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     </div>
