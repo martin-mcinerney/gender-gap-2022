@@ -9,10 +9,20 @@
 body {
     font-family: "Poppins", sans-serif;
     color: #272343;
-    height:100vh; 
-    margin:0;
-    display:flex; 
-    flex-direction:column;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 150%;
+    text-align: center;
+    margin: 50px 24%;
 }
 
 /* header */
@@ -82,8 +92,9 @@ body {
 
 }
 
-#cards h2 {
-    margin: 70px 24%;
+.card-img-top {
+    width: 70%;
+    margin: 0 auto;
 }
 
 #carousel {
@@ -98,6 +109,9 @@ body {
 
 #footer {
     background-color: #BAE8E8;
+}
+
+.footer-text {
     color: #272343;
 }
 
@@ -109,33 +123,37 @@ body {
 #navbarSupportedContent {
     padding-left: 20px;
 }
-nav div ul li a{
-    position:relative;
+
+nav div ul li a {
+    position: relative;
     z-index: 1;
 }
-nav div ul li a:hover{
-    color:#FCE79C
+
+nav div ul li a:hover {
+    color: #FCE79C
 }
-nav div ul li a:after{
-    display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    margin:auto;
+
+nav div ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
     width: 100%;
-    height:1px;
-    content:"";
-    color:transparent;
-    background:#FCE79C;
+    height: 1px;
+    content: "";
+    color: transparent;
+    background: #FCE79C;
     visibility: none;
     opacity: 0;
-    z-index:-1
+    z-index: -1
 }
-nav div ul li a:hover:after{
-    opacity:1;
-    visibility:visible;
-    height:100%
+
+nav div ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%
 }
 
 /* Image styling */
@@ -145,13 +163,30 @@ nav div ul li a:hover:after{
 }
 
 /* Makes footer stick to bottom of page at all times */
-.header { 
-    min-height:50px;
+.header {
+    min-height: 50px;
 }
 
-footer { 
-    margin-top:auto;
+footer {
+    margin-top: auto;
     background-color: #BAE8E8;
 }
 
+/* Grow on hover animation */
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+    color: #272343;
+}
+
+.home-cards-a {
+    color: #272343;
+}
+
+.home-cards-a:hover {
+    color: #272343;
+}
 
