@@ -9,4 +9,5 @@ urlpatterns = [
     path('delete_post/<slug>', views.delete_post, name='delete_post'),
     path("newstory/", views.newstory, name="newstory"),
     path("stories/", views.stories, name="stories"),
+    path('confirmed/', views.Confirmed.as_view(), name='confirmed'),
 ]

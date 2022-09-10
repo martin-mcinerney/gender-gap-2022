@@ -1,4 +1,5 @@
 from django.shortcuts import render, HttpResponseRedirect
+from django.views import generic
 
 from Posts.models import Post
 from .forms import PostForm
@@ -26,7 +27,7 @@ def newpost(request):
         form = PostForm(request.POST)
         if form.is_valid():
             form.save()
-            return HttpResponseRedirect("/")
+            return HttpResponseRedirect("/confirmed")
     else:
         form = PostForm()
     return render(request, "posts/newpost.html", {'form': form})
@@ -51,3 +52,13 @@ def delete_post(request, slug):
         return HttpResponseRedirect("/") #figure out exactly what this line does
 
     return render(request, 'Posts/delete_post.html', {'post': post})
+
+
+class Confirmed(generic.DetailView):
+    """
+    This view will display confirmation on a successful post
+    """
+    template_name = 'confirmed.html'
+
+    def get(self, request):
+        return render(request, 'confirmed.html')
