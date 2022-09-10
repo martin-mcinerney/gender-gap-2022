@@ -15,10 +15,10 @@
                 education, community and support.</p>
 
             <div class="d-none d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow"><a href="{% url 'stories' %}" class="text-decoration-none home-cards-a" alt="A link to blog your story" target="_blank">Read more</a></button>
             </div>
             <div class="d-flex d-md-none justify-content-center">
-                <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow"><a href="{% url 'stories' %}" class="text-decoration-none home-cards-a" alt="A link to blog your story" target="_blank">Read more</a></button>
             </div>
         </div>
     </div>
@@ -28,8 +28,8 @@
 <!-- cards -->
 <section class="container" id="cards">
     <div class="row d-flex my-5 justify-content-center">
-        <div class="col-10 col-md-4 mt-4">
-            <a href="{% url 'education' %}">
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'education' %}" class="text-decoration-none home-cards-a">
                 <div class="card">
                     <img src="static/images/mortarboard.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -39,8 +39,8 @@
                 </div>
             </a>
         </div>
-        <div class="col-10 col-md-4 mt-4">
-            <a href="{% url 'career' %}">
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'career' %}" class="text-decoration-none home-cards-a">
                 <div class="card">
                     <img src="static/images/career.png" class="card-img-top" alt="...">
 
@@ -51,8 +51,8 @@
                 </div>
             </a>
         </div>
-        <div class="col-10 col-md-4 mt-4">
-            <a href="{% url 'stories' %}">
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'stories' %}" class="text-decoration-none home-cards-a">
                 <div class="card">
                     <img src="static/images/fairytale.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -64,11 +64,8 @@
         </div>
     </div>
     </div>
-    <div class="container my-5">
-        <button type="button" class="btn btn-lg px-4 me-md-2">Find out more</button>
-    </div>
 
-    <h2>Featured Tweets #gendergap</h2>
+    <h6>Featured Tweets #gendergap</h6>
 
     <!-- this is the twitter feed  -->
     <div id="twitter-feed">
