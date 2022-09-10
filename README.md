@@ -216,11 +216,12 @@ If you would like to test our administration functionality, we have set up an ac
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |   |  |  |
-|  |  |  |  |
+|Add a story|Complete form and submit|Story adds to stories page|Story is added as expected|
+|Navbar|Click links|Direction to page|Navigation is successful|
+|Education page|View links to educational resources|Redirection to resource|Success|
 <details><summary>Images</summary>
-<img src="">
-<img src="">
+![Screenshot 2022-09-10 at 15 52 02](https://user-images.githubusercontent.com/98256205/189488888-8049b391-f037-497b-8ac5-4b7c91483686.png)
+
 </details>
 </details>
 
@@ -231,11 +232,11 @@ Site Owner
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+|Responsivness|Site viewport is resized|Good view on mobile|Site is responsive|
+|Validation|Form data entered|Errors are displayed where applicable|Success|
 
 <details><summary>Images</summary>
-<img src="">
-<img src="">
+
 </details>
 
 ### Automated Testing
