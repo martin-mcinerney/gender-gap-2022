@@ -15,10 +15,10 @@
                 education, community and support.</p>
 
             <div class="d-none d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow">Read more</button>
             </div>
             <div class="d-flex d-md-none justify-content-center">
-                <button type="button" class="btn btn-lg px-4 me-md-2">Read more</button>
+                <button type="button" class="btn btn-lg px-4 me-md-2 grow">Read more</button>
             </div>
         </div>
     </div>
@@ -28,6 +28,8 @@
 <!-- cards -->
 <section class="container" id="cards">
     <div class="row d-flex my-5 justify-content-center">
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'education' %}" class="text-decoration-none home-cards-a">
         <div class="col-10 col-md-4 mt-4">
             <a href="{% url 'education' %}">
                 <div class="card">
@@ -39,6 +41,8 @@
                 </div>
             </a>
         </div>
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'career' %}" class="text-decoration-none home-cards-a">
         <div class="col-10 col-md-4 mt-4">
             <a href="{% url 'career' %}">
                 <div class="card">
@@ -51,6 +55,8 @@
                 </div>
             </a>
         </div>
+        <div class="col-10 col-md-4 mt-4 grow">
+            <a href="{% url 'stories' %}" class="text-decoration-none home-cards-a">
         <div class="col-10 col-md-4 mt-4">
             <a href="{% url 'stories' %}">
                 <div class="card">
@@ -65,7 +71,7 @@
     </div>
     </div>
     <div class="container my-5">
-        <button type="button" class="btn btn-lg px-4 me-md-2">Find out more</button>
+        <button type="button" class="btn btn-lg px-4 me-md-2 grow">Find out more</button>
     </div>
 
     <h2>Featured Tweets #gendergap</h2>

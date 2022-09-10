@@ -153,3 +153,20 @@ footer {
     margin-top:auto;
     background-color: #BAE8E8;
 }
+
+/* Grow on hover animation */
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.home-cards-a {
+    color: #272343;
+}
+
+.home-cards-a:hover {
+    color: #272343;
+}
