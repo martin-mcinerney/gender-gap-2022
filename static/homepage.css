@@ -197,3 +197,8 @@ footer {
     color: #272343;
 }
 
+/* Team logo on about us page  */
+
+.team-logo {
+    margin: 0 auto;
+}
