@@ -1,9 +1,25 @@
 # WITCH
 
-
 ![cover image](readme/image-am-i-responsive.PNG)  
+Developers: **Andrew, Arron, Dee, Jamie, Martin**
 
-Developers: Andrew, Arron, Dee, Jamie, Martin
+## Introduction
+### **WITCH** - _Womens Information Technology Careers Hub_
+Our team wanted to create an application that empowers women who might be thinking of starting in tech but come up against some of the common stigmas associated with the industry. Tech is all too often seen as a male domain and this can cause hesitancy and imposter syndrome to set in. Not anymore! **WITCH** helps those seeking a start in tech to find a career path that suits them as well as helpful resources to get them on their way. Those working in tech can use the site to help others by sharing their stories from the inside!
+If you would like to try our application you can click the live link here:
+[Github](https://witch-kodefox.herokuapp.com/)
+
+If you would like to test our administration functionality, we have set up an account for you:
+* _Username: judgeaccount_
+* _Password: judgepassword123_
+
+# Main features
+* Twitter feed - all live feeds from #tags related to women in tech.
+* Careers information - this a page with various career paths available within tech.
+* Educational information - links to educational intitutes and opportunities for women in tech.
+* Stories posted by women in tech - real experience of women and thier challenges within the tech industry. 
+* Admin functionality - our admin page where we approve or disapprove stories posted on the blog.
+
 
 [Deployed Site](https://witch-kodefox.herokuapp.com/)  
 (Note: Ctrl + click to open in a new tab)    
