@@ -70,8 +70,8 @@ body {
     /* margin: 100px auto; */
 }
 
-.card-mint {
-    background-color: #BAE8E8;
+.card-orange{
+    background-color: #FEEFEC;
     padding: 20px;
     /* border-radius: 0; */
     /* margin: 100px auto; */
@@ -154,19 +154,4 @@ footer {
     background-color: #BAE8E8;
 }
 
-/* Grow on hover animation */
-.grow { 
-    transition: all .2s ease-in-out; 
-}
-    
-.grow:hover { 
-    transform: scale(1.1); 
-}
 
-.home-cards-a {
-    color: #272343;
-}
-
-.home-cards-a:hover {
-    color: #272343;
-}
