@@ -15,7 +15,11 @@ body {
     flex-direction: column;
 }
 
-h6 {
+h2 {
+    font-size: 120%;
+}
+
+h3 {
     font-size: 150%;
     text-align: center;
     margin: 50px 24%;
@@ -86,6 +90,11 @@ h6 {
 #cards button {
     margin-left: 30%;
 
+}
+
+.card-img-top {
+    width: 70%;
+    margin: 0 auto;
 }
 
 #carousel {
