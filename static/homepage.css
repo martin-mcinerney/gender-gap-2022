@@ -166,6 +166,7 @@ footer {
     
 .grow:hover { 
     transform: scale(1.1); 
+    color: #272343;
 }
 
 .home-cards-a {
