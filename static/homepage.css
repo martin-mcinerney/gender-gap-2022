@@ -159,7 +159,9 @@ nav div ul li a:hover:after {
 /* Image styling */
 .home-page-image {
     border-radius: 20px;
-    width: 100%;
+    width: 500px;
+    max-width: 100%;
+    
 }
 
 /* Makes footer stick to bottom of page at all times */
