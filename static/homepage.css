@@ -9,9 +9,11 @@
 body {
     font-family: "Poppins", sans-serif;
     color: #272343;
+    height:100vh; 
+    margin:0;
+    display:flex; 
+    flex-direction:column;
 }
-
-
 
 /* header */
 
@@ -136,7 +138,18 @@ nav div ul li a:hover:after{
     height:100%
 }
 
+/* Image styling */
 .home-page-image {
     border-radius: 20px;
     width: 100%;
+}
+
+/* Makes footer stick to bottom of page at all times */
+.header { 
+    min-height:50px;
+}
+
+footer { 
+    margin-top:auto;
+    background-color: #BAE8E8;
 }
