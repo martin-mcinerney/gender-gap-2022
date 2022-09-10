@@ -8,5 +8,5 @@ class PostForm(forms.ModelForm):
 
     class Meta:
         model = Post
-        exclude = ['approved']
-        #fields = "__all__"
+        # exclude = ['approved']
+        fields = "__all__"

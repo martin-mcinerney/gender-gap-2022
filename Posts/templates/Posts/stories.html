@@ -6,12 +6,18 @@
 <a href="{% url 'newstory' %}">share your story</a>
 {% for story in stories %}
 
+{% if story.approved == True %}
 <div>
     <h3>{{story.author}}</h3>
     <p>{{story.text}}</p>
     <p>{{story.link}}</p>
+
+    {% if request.user.is_staff %}
+    <p>{{story.approved}}</p>
+    {% endif %}
     <p>---------------------------------------</p>
 </div>
+{% endif %}
 {% endfor %}
 
 
